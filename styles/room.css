@@ -12,8 +12,8 @@
 }
 
 #members__container {
-  background-color: #262625;
-  border-right: 1px solid #797a79;
+  background-color: #3C3633;
+  border-right: 1px solid #747264;
   overflow-y: auto;
   width: 90%;
   max-width: 250px;
@@ -23,7 +23,7 @@
 }
 
 #members__count {
-  background-color: #1d1d1c;
+  background-color: #3b3734;
   padding: 7px 15px;
   font-size: 14px;
   font-weight: 600;
@@ -37,7 +37,7 @@
   padding: 0 1rem;
   position: fixed;
   font-size: 18px;
-  background-color: #323143;
+  background-color: #747264;
   width: 218px;
 }
 
@@ -75,7 +75,7 @@
 
 #messages__container {
   height: calc(100vh - 85px);
-  background-color: #262625;
+  background-color: #3C3633;
   right: 0;
   position: absolute;
   width: 100%;
@@ -128,7 +128,7 @@
 
 .message__author__bot {
   margin-right: 10px;
-  color: #a52aca!important;
+  color: #EEEDEB!important;
 
 }
 
@@ -141,7 +141,7 @@
   position: fixed;
   bottom: 0;
   display: block;
-  background-color: #1a1a1a;
+  background-color: #3c3633;
   padding: 1em;
 }
 
@@ -207,7 +207,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border:2px solid #b366f9;
+  /* border:2px solid #b366f9; */
   border-radius: 50%;
   cursor: pointer;
   overflow: hidden;
@@ -339,11 +339,12 @@
 }
 
 #join-btn{
-  background-color: #845695;
-  font-size: 18px;
+  background-color: #B3A398;
+  font-size: 20px;
+  font-weight: 600;
   padding: 25px 50px;
   border: none;
-  color:#fff;
+  color:#3c3633;
 
   position: fixed;
   bottom: 1rem;

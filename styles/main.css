@@ -64,7 +64,7 @@ a {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #000000;
-  background-color: #1a1a1a;
+  background-color: #E0CCBE;
   text-decoration: none;
   padding: 16px 5%;
   z-index: 999;
@@ -78,7 +78,7 @@ a {
   font-weight: 700;
   line-height: 0;
   margin: 0;
-  color: #ebe0e0;
+  color: #3c3633;
 }
 
 @media (max-width: 640px) {
@@ -102,7 +102,8 @@ a {
 }
 
 .nav__link {
-  color: #fff;
+  color: #EEEDEB;
+  font-weight: 600;
   text-decoration: none;
   transition: 1s;
   border-bottom: 2px solid transparent;
@@ -124,7 +125,8 @@ a {
 
 #create__room__btn {
   display: block;
-  background-color: #845695;
+  /* background-color: #845695; */
+  background-color: #3c3633;
   padding: 8px 24px;
   font-size: 14px;
   font-weight: 500;
@@ -132,7 +134,7 @@ a {
 }
 
 #create__room__btn:hover {
-  background-color: #845695;
+  background-color: #4d443f;
 }
 
 .nav--list {
